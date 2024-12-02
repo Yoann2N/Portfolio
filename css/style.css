@@ -1,0 +1,17 @@
+
+@import url("reset.css");
+
+body{ 
+    .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+}
+#identite{
+
+}
+
+.bordure-rouge{
+        border: solid 1px red;
+}
