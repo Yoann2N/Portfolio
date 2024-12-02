@@ -16,3 +16,62 @@ body{
 .bordure-rouge{
         border: solid 1px red;
 }
+/* Smartphone */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #0000ff;
+}
+
+@media screen and (min-width:576px){
+    header{
+        
+        background-color: green;
+    }
+} 
+/* Tablette */
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        background: yellow;
+    }
+}
+/* Ordinateur */
+@media screen and (min-width: 1024px) {
+    header {
+         background-color: red;
+    }
+    body{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 32;
+    }
+    h2{
+        font-size: 24px;
+    }
+} 
+
+
+    
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 24px;
+}
