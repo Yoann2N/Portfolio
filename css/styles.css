@@ -53,17 +53,7 @@ footer {
   padding: 40px 60px;
   background: #d6d6d6;
 }
-.timeline:after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  bottom: 20px;
-  left: 50%;
-  width: 8px;
-  background: #346abf;
-  border-radius: 3px;
-  z-index: 1;
-}
+
 
 .timeline article {
   position: relative;
