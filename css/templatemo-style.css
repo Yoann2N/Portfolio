@@ -146,6 +146,8 @@ video::-webkit-media-controls {
   font-weight: 400;
   color: #fff;
   margin-top: 15px;
+  
+  
 }
 
 .cd-slider-nav ul .selected h6 {
@@ -178,7 +180,7 @@ video::-webkit-media-controls {
   margin-bottom: 100px;
   margin-top: -80px;
   background-color: #fff;
-  border-top: 15px solid #ffbb05;
+  border-top: 15px solid #fcfbf8;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
