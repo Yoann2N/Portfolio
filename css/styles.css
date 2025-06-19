@@ -45,80 +45,7 @@ footer {
 
 * { box-sizing: border-box; }
 
-.timeline {
-  position: relative;
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 40px 60px;
-  background: #d6d6d6;
-}
 
-
-.timeline article {
-  position: relative;
-  background: #eeeeee;
-  width: calc( 50% - 40px );
-  padding: 15px;
-}
-.timeline article + article {
-  margin-top: 20px;
-}
-.timeline article:before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: calc( 100% + 26px );
-  background: #d6d6d6;
-  width: 24px;
-  height: 24px;
-  border: 6px #346abf solid;
-  border-radius: 50%;
-  z-index: 2;
-}
-.timeline article:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 0;
-  height: 0;
-  border-top: 20px solid transparent;
-  border-left: 16px solid #eeeeee;
-  border-bottom: 20px solid transparent;
-}
-
-.timeline article:nth-child(even) {
-  margin-left: calc( 50% + 48px );
-}
-.timeline article:nth-child(even):before {
-  left: auto;
-  right: calc( 100% + 26px );
-}
-.timeline article:nth-child(even):after {
-  left: auto;
-  right: 100%;
-  border-left: none;
-  border-right: 16px solid #eeeeee;
-}
-
-.timeline article ul {
-  margin: 0;
-  padding: 0;
-}
-.timeline article li {
-  list-style: none;
-  padding: 8px 0;
-}
-.timeline article li:not(:last-child) {
-  border-bottom: 1px #aaa solid;
-}
-.timeline article li span {
-  display: inline-block;
-  width: 70px;
-  color: #346abf;
-}
 
 /* .logo {
   width: 800px;
@@ -147,7 +74,7 @@ footer {
 .logo-Wlangage {
   width: 250px;
   height: 110px;
-  margin-top: 40px;
+  /* margin-top: 40px; supprimé */
 }
 
 .logo-dbeaver {
@@ -158,24 +85,20 @@ footer {
 .logo-sql {
   width: 240px;
   height: auto;
-  margin-top: 30px;
+  /* margin-top: 30px; supprimé */
 }
 
 .logo-word {
   width: 270px;
   height: auto;
-  margin-left: -20px ;
-  /*168px;*/
-  margin-top: 21px;
+  /* margin-left: -20px; supprimé */
+  /* margin-top: 21px; supprimé */
 }
 
 .logo-excel {
   width: 200px;
   height: auto;
-  
 }
-
-
 
 /* ======== OUTILS - Cartes ======== */
 .tool-card {
@@ -191,7 +114,7 @@ footer {
   align-items: center;
   justify-content: flex-start;
   transition: transform 0.3s ease;
-  min-height: 300px;
+  min-height: 350px; /* augmenté pour uniformiser */
 }
 
 .tool-card:hover {
@@ -201,7 +124,7 @@ footer {
 
 .tool-card img {
   max-width: 100%;
-  max-height: 200px;
+  max-height: 150px; /* uniforme */
   object-fit: contain;
   margin-bottom: 15px;
 }
@@ -257,6 +180,57 @@ footer {
   filter: invert(1) !important;
 }
 
+.competences-tool-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease;
+  min-height: 350px;
+}
+
+.competences-tool-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.competences-tool-card img {
+  max-width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.competences-tool-description {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+  margin-top: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Logos */
+.competences-logo-csharp {
+  width: 150px;
+  height: 150px;
+}
+
+.competences-logo-python {
+  width: 220px;
+  height: 150px;
+}
+
+/* ... et ainsi de suite pour toutes les classes logo ... */
 
 
 
