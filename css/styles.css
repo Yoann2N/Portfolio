@@ -174,3 +174,40 @@ footer {
   height: auto;
   
 }
+
+
+
+.logo-eclipse{
+  width: 250px;
+  height: 250px;
+}
+
+ .logo-vmware {
+  width: 220px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+ .logo-notepad {
+  width: 250px;
+  height: 250px;
+}
+
+ .logo-windev {
+  width: 250px;
+  height: 200px;
+  padding-top: 40 px;
+}
+
+ .logo-vs {
+  width: 250px;
+  height: 250px;
+}
+
+ .logo-vscode {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 500px;
+  
+}
+

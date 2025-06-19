@@ -15,10 +15,11 @@
       top: 35px;
       /*left:0 ;*/
       align-items: center;
-      width: 100%;
+      width: 80%;
       height: 4px;
-      background-color: #ccc;
+      background-color: #0b0b0b;
       z-index: 0;
+      color: black;
     }
 
     .timeline-step {
@@ -66,3 +67,4 @@
       margin-top: 20px;
       color: rgb(8, 8, 8)
     }
+
