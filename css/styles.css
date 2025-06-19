@@ -120,14 +120,14 @@ footer {
   color: #346abf;
 }
 
-.logo {
+/* .logo {
   width: 800px;
   height: 100px;
   object-fit: contain;
   display: block;
   margin: 0 auto;
 
-}
+} */
 
 .logo-csharp {
   width: 150px;
@@ -177,37 +177,92 @@ footer {
 
 
 
-.logo-eclipse{
-  width: 250px;
-  height: 250px;
+/* ======== OUTILS - Cartes ======== */
+.tool-card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.3s ease;
+  min-height: 300px;
 }
 
- .logo-vmware {
-  width: 220px;
-  height: 200px;
-  padding-top: 10px;
+.tool-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
- .logo-notepad {
-  width: 250px;
-  height: 250px;
+.tool-card img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
 }
 
- .logo-windev {
-  width: 250px;
-  height: 200px;
-  padding-top: 40 px;
+/* ======== Description visible sous l’image dans la page ======== */
+.tool-description {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #000;
+  margin-top: 10px;
+  text-align: center;
 }
 
- .logo-vs {
-  width: 250px;
-  height: 250px;
+/* ======== LIGHTBOX2 - Description sous l’image agrandie ======== */
+.lb-dataContainer {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 8px;
+  padding: 12px;
+  text-align: center !important;
+  margin-top: 10px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
- .logo-vscode {
-  width: 150px;
-  height: 150px;
-  margin-bottom: 500px;
-  
+.lb-caption {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #000000 !important;
+  margin: 0;
 }
+
+.lb-number {
+  color: #555 !important;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* ======== Correction d'affichage Lightbox2 (position de la légende) ======== */
+.lb-data {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.lb-outerContainer {
+  text-align: center !important;
+}
+
+/* ======== CROIX DE FERMETURE LIGHTBOX2 EN NOIR ======== */
+.lb-close {
+  filter: invert(1) !important;
+}
+
+
+
+
+
+
+
+
+
 
